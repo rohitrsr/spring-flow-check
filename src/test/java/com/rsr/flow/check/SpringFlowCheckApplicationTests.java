@@ -3,11 +3,17 @@ package com.rsr.flow.check;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import lombok.extern.slf4j.Slf4j;
+
 @SpringBootTest
+@Slf4j
 class SpringFlowCheckApplicationTests {
+	
 
 	@Test
-	void contextLoads() {
+	 public void contextLoads() {
+		log.info("Test case executing");
+	
 	}
 
 }
