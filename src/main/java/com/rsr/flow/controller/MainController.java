@@ -13,4 +13,9 @@ public class MainController {
 	{
 		return "hello";
 	}
+	
+	@GetMapping("jenkins")
+	public String jenkinDemo() {
+		return "Welocome to jenkin";
+	}
 }
