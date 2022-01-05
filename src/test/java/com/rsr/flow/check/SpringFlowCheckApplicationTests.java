@@ -1,12 +1,11 @@
 package com.rsr.flow.check;
 
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import lombok.extern.slf4j.Slf4j;
-
 @SpringBootTest
-@Slf4j
 class SpringFlowCheckApplicationTests {
 	
 
