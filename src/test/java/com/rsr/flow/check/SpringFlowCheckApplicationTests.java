@@ -11,7 +11,7 @@ class SpringFlowCheckApplicationTests {
 	
 
 	@Test
-	 public contextLoads() {
+	 public void contextLoads() {
 		log.info("Test case executing");
 	
 	}
